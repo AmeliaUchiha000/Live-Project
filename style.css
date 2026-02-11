@@ -1,0 +1,96 @@
+body{
+margin:0;
+font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+header{
+background:#2e7d32;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+
+.logo{
+font-size:26px;
+color:white;
+font-weight:bold;
+text-shadow:3px 3px 6px black; /* LOGO SHADOW ON ALL PAGES */
+}
+
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+}
+
+
+nav a:hover{
+text-decoration:underline;
+}
+
+
+.section{
+    padding: 40px; 
+}
+.banner img{
+    height:30%;
+    width: 40%;
+    background-image: linear-gradient( left, #559207,#cee2c9);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+
+.card{
+
+padding:5px;
+border-radius:8px;
+align-items: center;
+}
+
+
+.card img{
+width:50%;
+height: 50%;
+object-fit:cover;
+border-radius:15px;
+margin-right: auto; 
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url("/images/logo.jpg");
+    background-position: center;
+    background-size: 300px;
+    opacity: 1;
+}
+h2{
+    text-align: center;
+
+}
+.footer{
+    background:#2e7d32;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
+.slider h1{
+    height: 200px;
+    width: 200px;
+text-align: center(text-align);
+}
+.fertilizers img{
+    height: 80%;
+    width: 80%;
+}
+.services img{
+    height: 40%;
+    width:100%;
+}
